@@ -10,55 +10,30 @@
          href="https://fonts.googleapis.com/css2?family=Hind&display=swap"
          rel="stylesheet"
       />
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
       <link rel="stylesheet" href="style.css" />
-      <title>Hello Flexbox</title>
+      <title>Hello Javascript Carousel</title>
    </head>
    <body>
-       
-    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet" />
-      <div class="container">
-         <div class="columns">
-            <h2>HTML</h2>
-            <div class="caption">
-               <p>
-                  HTML is the language used to create
-                  webpages. "Hypertext" refers to the
-                  hyperlinks that an HTML page may contain.
-                  "Markup language" refers to the way tags
-                  are used to define the page layout and
-                  elements within the page.
-               </p>
-               <button type="button">Know More</button>
-            </div>
-            <img src="html.png" alt="html" />
-         </div>
-         <div class="columns">
-            <h2>CSS</h2>
-            <div class="caption">
-               <p>
-                  Cascading style sheets are used to format
-                  the layout of Web pages. They can be used
-                  to define text styles, table sizes, and
-                  other aspects of Web pages that previously
-                  could only be defined in a page's HTML.
-               </p>
-               <button type="button">Know More</button>
-            </div>
-            <img src="css.png" alt="html" />
-         </div>
-         <div class="columns">
-            <h2>JavaScript</h2>
-            <div class="caption">
-               <p>
-                  JavaScript is a client-side scripting
-                  language, which means the source code is
-                  processed by the client's web browser It
-                  runs on the web server as Node.
-               </p>
-               <button type="button">Know More</button>
-            </div>
-            <img src="js.png" alt="html" />
+      <div class="carousel-container">
+         <i class="fa fa-arrow-left" id="prev" aria-hidden="true"></i>
+         <i class="fa fa-arrow-right" id="next"  aria-hidden="true"></i>
+         <div class="carousel-slide">
+            <img src="seven.jpg" id="lastClone" alt="js" />
+            <img src="one.jpg" alt="html" />
+            <img src="two.jpg" alt="css" />
+            <img src="three.jpg" alt="js" />
+            <img src="four.jpg" alt="js" />
+            <img src="five.jpg" alt="js" />
+            <img src="six.jpg" alt="js" />
+            <img src="seven.jpg" alt="js" />
+            <img src="one.jpg" id="firstClone" alt="html" />
          </div>
       </div>
+
+      <script src="index.js"></script>
    </body>
 </html>
