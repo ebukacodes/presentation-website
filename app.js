@@ -1,14 +1,11 @@
-const panels = document.querySelectorAll('.panel');
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
 
-panels.forEach((panel) => {
-  panel.addEventListener('click', () => {
-    removeActiveClasses();
-    panel.classList.add('active');
-  });
+signUpButton.addEventListener('click', () => {
+  container.classList.add('right-panel-active');
 });
 
-function removeActiveClasses() {
-  panels.forEach((panel) => {
-    panel.classList.remove('active');
-  });
-}
+signInButton.addEventListener('click', () => {
+  container.classList.remove('right-panel-active');
+});
