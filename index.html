@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Travel Website</title>
+    <title>Full Stacker</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -19,61 +19,203 @@
       href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="webslides.css" />
+    <style>
+      * {
+        font-family: 'Varela Round', sans-serif;
+      }
+    </style>
   </head>
 
   <body>
-    <section class="showcase">
-      <header>
-        <h2 class="logo">Travel 9ja</h2>
-        <div class="toggle"></div>
-      </header>
-      <video
-        src="prod.mp4"
-        muted
-        loop
-        autoplay
-      ></video>
-      <div class="overlay"></div>
-      <div class="text">
-        <h2>Never Stop To</h2>
-        <h3>Exploring The World</h3>
-        <p>
-          We are a luxury brand whose incredible family of associates puts the soul in hospitality every day. The needs of our guests, associates and owners are in the forefront of everything we do. Through authenticity and innovation, we create unique memorable experiences.
+     <main role="main">
+    <article id="webslides" class="horizontal">
+      <!-- Slide 1 -->
+      <section>
+        <span class="background" style="background-image:url('image.jpg')"></span>
+
+        <div class="wrap">
+          <h1><strong>Fayoon Bootcamp</strong></h1>
+          <br>
+          <p class="text-intro">
+            Become a Full Stack Developer in 3 months
+          </p>
+          <p>
+            <a href="#" class="button zoomIn">
+              Download Our Brochure
+            </a>
+          </p>
+        </div>
+      </section>
+      <!-- Slide 2 -->
+      <section>
+        <div class="wrap size-50 aligncenter">
+          <h2><strong>Why Fayoon?</strong></h2>
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <h2>Latest & best technologies</h2>
+                <p>You learn the latest and best web technologies</p>
+              </li>
+              <li>
+                <h2>Learn in a simple way</h2>
+                <p>You learn in the simplest way</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 3 -->
+      <section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <h3><strong>Full Stack Web Development</strong></h3>
+              <p class="text-intro">
+                We teach you Web Development front to back
+              </p>
+              <p>
+                We start with front end HTML/CSS/JS, teach you the React
+									framework and then move to the back-end with Node.js &
+									Express.
+              </p>
+            </div>
+            <div class="column">
+              <img src="https://i.ibb.co/cXCDCXL/tech.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 4 -->
+      <section>
+        <div class="wrap">
+          <h2>Our Curriculum</h2>
+          <ul class="flexblock features">
+            <li>
+              <div>
+                <h2>HTML / CSS</h2>
+                <img style="margin: 1rem;" src="https://i.ibb.co/4ZYPHtC/cur1.png" alt="">
+              </div>
+            </li>
+            <li>
+              <div>
+                <h2>Front-End Programming</h2>
+                <img style="margin: 1rem;" src="https://i.ibb.co/tMjGkzf/cur2.png" alt="">
+              </div>
+            </li>
+            <li>
+              <div>
+                <h2>Back-End Programming</h2>
+                <img style="margin: 1rem;" src="https://i.ibb.co/N6h5CdF/cur3.png" alt="">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 5 -->
+      <section>
+        <div class="wrap">
+          <h2><strong>Bootcamp Projects</strong></h2>
+          <p>What we build</p>
+          <ul class="flexblock gallery">
+            <li>
+              <a href="#">
+                <figure>
+                  <img style="height: 20rem ;" src="https://i.ibb.co/RQdjB6d/project1.png" alt="">
+                  <figcaption>
+                    <h2>Project 1</h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <figure>
+                  <img src="https://i.ibb.co/f4rdcVY/project2.png" alt="">
+                  <figcaption>
+                    <h2>Project 2</h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <figure>
+                  <img src="https://i.ibb.co/qn28TPy/project3.png" alt="">
+                  <figcaption>
+                    <h2>Project 3</h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <figure>
+                  <img src="https://i.ibb.co/R4yMq1m/project4.png" alt="">
+                  <figcaption>
+                    <h2>Project 4</h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 6 -->
+      <section>
+        <div class="wrap">
+          <h2><strong>More Info</strong></h2>
+          <p>Find out more</p>
+          <div class="grid vertical-align">
+            <div class="column">
+              <h4><strong>Instructors</strong></h4>
+              <p>We have some of the best programming instructors in the world working with us</p>
+              <ul class="description">
+                <li><a href="#">Destiny Innocent</a></li>
+                <li><a href="#">Ebuka Akara</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h4><strong>Pricing Info</strong></h4>
+              <p>Click below to find more about pricing and the different
+                programs that we offer</p>
+              <ul class="description">
+                <li><a href="#">60 Day Program</a></li>
+                <li><a href="#">90 Day Program</a></li>
+              </ul>
+            </div>
+         
+          </div>
+        </div>
+      </section>
+
+    <!-- Slide 7 -->
+    <section class="aligncenter">
+      <div class="wrap">
+        <h2><strong>Are You Ready?</strong></h2>
+        <p class="text-intro">
+          Are you ready to become a fullstack web developer?
         </p>
-        <a href="#">Explore</a>
+        <p>
+          <a href="#" class="button">
+            Download Our Brochure
+          </a>
+        </p>
       </div>
-      <ul class="social">
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.ibb.co/x7P24fL/facebook.png"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.ibb.co/Wnxq2Nq/twitter.png"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img
-              src="https://i.ibb.co/ySwtH4B/instagram.png"
-          /></a>
-        </li>
-      </ul>
     </section>
-    <div class="menu">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Destination</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+
+    <!-- Slide 8 -->
+    
+    </article>
+  </main>
   </body>
 
-  <script src="app.js"></script>
+  <script src="webslides.js"></script>
+  <script>
+    window.ws = new WebSlides();
+  </script>
 </html>
